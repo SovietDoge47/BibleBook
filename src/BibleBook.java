@@ -14,6 +14,6 @@ public class BibleBook
 	
 	public void display()
 	{
-		System.out.println("'" + this.name + "', " + this.numberOfChapters + " Chapters, " + this.summary);
+		System.out.println("Book name: " + this.name + " (" + this.numberOfChapters + " chapters) - " + this.summary);
 	}
 }
